@@ -1,0 +1,86 @@
+
+.header{
+
+    background: black;
+    color: blanchedalmond;
+    /* border: 4px solid rgb(36, 132, 156); */
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+body {
+    font-family:Arial Narrow, serif;
+}
+
+.logo{
+    /* border: 2px solid red; */
+    display: inline-flex ;
+    justify-content: left;
+    align-items: center;
+    width: 400px;
+    padding: 1px;
+    /* font-family: Verdana, sans-serif; */
+}
+
+
+/* dans la div logo prendre la balise svg */
+.logo svg{
+    margin-right:6% ;
+    
+}
+
+.menu{
+    /* border: 2px solid yellow; */
+    width: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 4%;
+}
+
+/* -----------partie présentation texte----------- */
+
+.main   {
+    /* border: 3px solid coral; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background-image:
+    linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(24, 9, 9, 0.5)),
+    url("https://www.afpa.fr/documents/21653/74570/centre-marseille-st-jerome.jpg");
+
+    height: 500px;
+    
+
+
+    /* padding: 8%; */
+}
+
+
+/* dans la div main prendre la balise P */
+.main p{
+    width: 35%;   /*  rendre la taille en px bloquera l'alignement du texte */
+    min-width: 325px;
+    text-align: center;
+    color: rgb(241, 237, 237);
+    
+}
+
+.title {
+    color: rgb(241, 237, 237);
+    font-size: larger;
+
+}
+
+
